@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Portal</title>
+</head>
+<body>
+    <h2 id="heading">Student Portal</h2>
+    <div id="search-button">
+        <input id="search_bar" type="text" placeholder="Search...">
+        <button type="button" id="search_btn">Search</button>
+    </div>
+
+    <div id="container">
+        <!-- six buttons -->
+       <button class="sortBtn" type="button" id="sortA">Sort A->Z</button>
+       <button class="sortBtn" type="button" id="sortZ">Sort Z->A</button>
+       <button class="sortBtn" type="button" id="sortMarks">Sort By Marks</button>
+       <button class="sortBtn" type="button" id="sortPassing">Sort By Passing</button>
+       <button class="sortBtn" type="button" id="sortClass">Sort By Class</button>
+       <button class="sortBtn" type="button" id="sortGender">Sort By Gender</button>
+    </div>
+
+    <!--table-->
+    <div id="data-box">
+        <table cellspacing="0" id="show-table">
+            <tr>
+                <td>ID</td>
+                <td colspan="3">Name</td>
+                <td>Gender</td>
+                <td>Class</td>
+                <td>Marks</td>
+                <td>Passing</td>
+                <td>Email</td>
+            </tr>
+        </table>
+        <table cellspacing="0" id="show-table-two">
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
